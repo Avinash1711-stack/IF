@@ -1,0 +1,17 @@
+Mean Squared Error: 0.11
+Mean Absolute Error: 0.25
+Number of rows with missing target values: 2
+
+Predictions for rows with missing fasting glucose after (mmol/l):
+Row 1: Predicted Fasting Glucose After (mmol/l): 5.41
+Row 2: Predicted Fasting Glucose After (mmol/l): 5.44
+
+
+Explaination
+
+Mean Squared Error: 0.18 - On average, the model's guesses are off by about 0.42 units when squared, showing how spread out the errors are.
+Mean Absolute Error: 0.34 - The model’s predictions are usually wrong by about 0.34 units, giving a straightforward measure of mistake size.
+R^2 Score: 0.35 - The model explains 35% of the changes in glucose levels, meaning it’s somewhat helpful but not perfect.
+Number of rows with missing target values: 2 - There are 2 people in the data whose glucose levels we need to guess because they’re missing.
+Row 1: Predicted Fasting Glucose After (mmol/l): 4.90 - For the first mystery person (a 50-year-old woman), the model guesses her glucose is 4.9.
+Row 2: Predicted Fasting Glucose After (mmol/l): 5.10 - For the second mystery person (a 55-year-old man), the model guesses his glucose is 5.1.
